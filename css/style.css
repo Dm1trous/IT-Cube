@@ -286,7 +286,7 @@ a {
 
 .list_blue li::before {
     content: "";
-    background: url(/image/mark.png) no-repeat 0;
+    background: url(image/mark.png) no-repeat 0;
     background-size: 16px;
     padding-left: 24px;
 }
