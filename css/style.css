@@ -43,7 +43,7 @@ a {
 
 .container_white {
     width: 100%;
-    background-image: url(image/white_bckg.png);
+    background-image: url(../image/white_bckg.png);
     background-size: contain;
     background-repeat: repeat-y;
     background-attachment: fixed, scroll;
@@ -286,7 +286,7 @@ a {
 
 .list_blue li::before {
     content: "";
-    background: url(image/mark.png) no-repeat 0;
+    background: url(../image/mark.png) no-repeat 0;
     background-size: 16px;
     padding-left: 24px;
 }
