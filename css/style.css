@@ -43,7 +43,7 @@ a {
 
 .container_white {
     width: 100%;
-    background-image: url(/image/white_bckg.png);
+    background-image: url(image/white_bckg.png);
     background-size: contain;
     background-repeat: repeat-y;
     background-attachment: fixed, scroll;
