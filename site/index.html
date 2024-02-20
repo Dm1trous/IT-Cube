@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT-Cube</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- шапка -->
+    <header class="header">
+        <div class="logo">
+            <a href=""><img class="logo-img" src="image/logo.png" alt="IT-Cube"></a>
+        </div>
+    </header>
+    <!-- меню -->
+    <section class="menu">
+        <ul class="menu-list">
+            <li><a href="index.html" class="gray">Главная</a></li>
+            <li><a href="Napr.html">Направления</a></li>
+            <li><a href="News.html">Новости</a></li>
+        </ul>
+    </section>
+    <!-- первая секция (новое направление) -->
+    <section class="container_white">
+        <section class="container">
+            <div class="grid">
+                <div class="grid1">
+                    <h1 class="title">Открыт набор <br> на новое направление!</h1>
+                </div>
+                <div class="new">
+                    <img class="new-img" src="image/new.png" alt="Фон направления">
+                    <h3 class="new-subtitle">Графический <br> дизайн</h2>
+                        <p class="new-text"> Способ передачи информации, <br> с помощью шрифтов, текста <br> иллюстраций
+                            или видео.</p>
+                </div>
+            </div>
+            <div class="btn-centr">
+                <a href="#form"><button class="btn">Подать заявку</button></a>
+            </div>
+        </section>
+    </section>
+    <!-- вторая секция (на направлении вы научитесь) -->
+    <section class="container_blue">
+        <section class="container">
+            <h2 class="subtitle">На направлении вы научитесь</h2>
+            <div class="study">
+                <div class="study-content">
+                    <h3 class="study-title">Делать <br> прототипы</h3>
+                    <img class="study-img" src="image/maket.png" alt="иконка">
+                </div>
+                <div class="study-content">
+                    <h3 class="study-title">Редактировать <br> изображения</h3>
+                    <img class="study-img" src="image/pencil.png" alt="иконка">
+                </div>
+                <div class="study-content">
+                    <h3 class="study-title">Работать с <br> анимацией</h3>
+                    <img class="study-img" src="image/animation.png" alt="иконка">
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- третья секция (что такое графический дизайн?) -->
+    <section class="container_white">
+        <section class="container">
+            <h2 class="subtitle subtitle-black">Что такое графический дизайн?</h2>
+            <ul class="list_blue">
+                <li>Графический дизайн – это способ передачи информации, с помощью шрифтов, текста, иллюстраций или
+                    видео.</li>
+                <li>К графическому дизайну можно отнести иллюстрацию, 3D-моделирование, анимацию, веб-разработку. Все,
+                    что связано с созданием графики.</li>
+                <li>Так же, под графическим дизайном принято понимать создание статичной графики для печати или
+                    размещения в сети.</li>
+                <li>Искусство графического дизайна включает в себя целый ряд когнитивных навыков и ремесел, включая
+                    типографику, разработку изображений и верстку страниц.</li>
+            </ul>
+        </section>
+    </section>
+    <!-- четвертая секция (преподаватели курса) -->
+    <section class="container_blue">
+        <section class="container">
+            <h2 class="subtitle">Преподаватели курса</h2>
+            <div class="prepods">
+                <div class="prepods-content">
+                    <img class="prepods-img" src="image/prepod1.png" alt="Препод">
+                    <h3 class="prepod-title">Илья Зуев</h3>
+                    <p class="prepod-text">UI/UX дизайнер</p>
+                </div>
+                <div class="prepods-content">
+                    <img class="prepods-img" src="image/prepod2.png" alt="Препод">
+                    <h3 class="prepod-title">Сергей Денисов</h3>
+                    <p class="prepod-text">Дизайнер, аниматор</p>
+                </div>
+                <div class="prepods-content">
+                    <img class="prepods-img" src="image/prepod3.png" alt="Препод">
+                    <h3 class="prepod-title">Ева Юдина</h3>
+                    <p class="prepod-text">UI/UX дизайнер</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- пятая секция (форма) -->
+    <section class="container_white" id="form">
+        <section class="container">
+            <h2 class="subtitle subtitle-black">Оставьте заявку на обучение</h2>
+            <div class="form">
+                <div class="form-content">
+                    <h3 class="form-title">Ваше имя</h3>
+                    <h3 class="form-title">Номер телефона</h3>
+                    <h3 class="form-title">Возраст ребенка</h3>
+                </div>
+                <div class="forma">
+                    <form action="registr" id="registr">
+                        <input type="text" id="name" required placeholder="Иван" maxlength="20"><br>
+                        <input type="tel" id="phone" required placeholder="8 (952) 123-12-12" maxlength="11"
+                            pattern="[0-9]{11}"><br>
+                        <input type="number" id="age" required value="7" min="7" max="18" placeholder="7">
+                    </form>
+                </div>
+            </div>
+            <div class="form1">
+                <div class="form-content">
+                    <h3 class="form-title">Ваше имя</h3>
+                    <form action="registr1" id="registr1">
+                        <div class="forma">
+                            <input type="text" id="name" required placeholder="Иван" maxlength="20"><br>
+                            <h3 class="form-title">Номер телефона</h3>
+                            <input type="tel" id="phone" required placeholder="8 (952) 123-12-12" maxlength="11"
+                                pattern="[0-9]{11}"><br>
+                            <h3 class="form-title">Возраст ребенка</h3>
+                            <input type="number" id="age" required value="7" min="7" max="18" placeholder="7">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="form-grid">
+                <div class="checkbox-group">
+                    <input class="checkbox" id="checkbox" type="checkbox"><label class="checkbox-text"
+                        for="checkbox">Даю согласие на обработку персональных данных</label>
+                </div>
+                <button form="registr" class="btn2">Записаться</button>
+                <button form="registr1" class="btn3">Записаться</button>
+            </div>
+        </section>
+    </section>
+    <!-- подвал -->
+    <div class="footer_bckg">
+        <footer class="footer">
+            <div class="footer-group">
+                <img class="footer_img" src="image/logo_footer.png" alt="лого">
+                <p class="footer_text">Центр образования детей по программам, направленным на ускоренное освоение
+                    актуальных и востребованных знаний, навыков и компетенций в сфере информационных
+                    технологий.<br><br>Проект формирует современную образовательную экосистему, объединяющую
+                    компании-лидеров ИТ-рынка, опытных наставников и начинающих разработчиков от 7 до 18 лет.</p>
+            </div>
+            <div class="social">
+                <a href="#"><img class="social-img" src="image/vk.png" alt="Вконтакте"></a>
+                <a href="#"><img class="social-img" src="image/tg.png" alt="Телеграм"></a>
+            </div>
+        </footer>
+        <img class="line" src="image/line.png" alt="линия">
+        <section class="container_line">
+            <p class="line-text">
+                Администрация Сайта не несет ответственности за размещаемые Пользователями материалы (в т.ч. информацию
+                и изображения), их содержание и качество.
+            </p>
+        </section>
+    </div>
+</body>
+
+</html>
